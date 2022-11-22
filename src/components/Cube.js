@@ -14,8 +14,6 @@ export const Cube = ({ position, texture }) => {
 
 	const activeTexture = textures[texture + 'Texture']
 
-
-
 	return (
 		<mesh
 			onPointerMove={(e) => {
